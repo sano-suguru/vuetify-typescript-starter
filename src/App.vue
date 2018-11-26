@@ -21,18 +21,14 @@
   </v-app>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld'
+<script lang="ts">
+import { Vue, Component } from 'vue-property-decorator';
+import HelloWorld from './components/HelloWorld.vue';
 
-export default {
-  name: 'App',
+@Component({
   components: {
-    HelloWorld
+    HelloWorld,
   },
-  data () {
-    return {
-      //
-    }
-  }
-}
+})
+export default class App extends Vue {}
 </script>
