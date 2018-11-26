@@ -1,4 +1,4 @@
-# todoapp-client
+# vuetify-typescript-starter
 
 ## Project setup
 ```
